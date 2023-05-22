@@ -1,0 +1,24 @@
+<!-- <iframe 
+[src]="iFrameUrl"
+*ngIf="isDisplayIFrame"
+style="height: 80%; width: 80%; z-index: 20; position: absoulte; background: blue;"
+id="loginIFrame"
+></iframe> -->
+
+<!-- <iframe
+  width="560"
+  height="315"
+  [src]="iFrameUrl"
+  *ngIf="isDisplayIFrame"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+  style="position: absoulte; background: blue;"
+></iframe> -->
+
+<iframe [src]="iFrameUrl"> </iframe>
+
+<div>
+  <button (click)="onOpenIFrame()">Open IFrame</button>
+</div>
