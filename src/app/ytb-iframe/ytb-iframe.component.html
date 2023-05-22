@@ -1,13 +1,6 @@
-<!-- <iframe 
-[src]="iFrameUrl"
-*ngIf="isDisplayIFrame"
-style="height: 80%; width: 80%; z-index: 20; position: absoulte; background: blue;"
-id="loginIFrame"
-></iframe> -->
-
-<!-- <iframe
-  width="560"
-  height="315"
+<iframe
+  width="520px%"
+  height="300px"
   [src]="iFrameUrl"
   *ngIf="isDisplayIFrame"
   title="YouTube video player"
@@ -15,9 +8,19 @@ id="loginIFrame"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
   allowfullscreen
   style="position: absoulte; background: blue;"
-></iframe> -->
+></iframe>
 
-<iframe [src]="iFrameUrl"> </iframe>
+<p>
+  Input an "embed" type of Url, you get it using the "share" button on YouTube.
+</p>
+<p>
+  If you have a regular youtube link then replace the part of url that looks
+  like this "/watch?v=" with "/embed/".
+</p>
+
+<div>
+  <input type="text" (change)="onUrlInput($event)" />
+</div>
 
 <div>
   <button (click)="onOpenIFrame()">Open IFrame</button>

@@ -4,6 +4,9 @@
 
 ## This branch : iFrames-sandbox
 
-- This branch is based on YTB video : DotComIt : [Angular and iFrames](https://youtu.be/EXG54G7Nv8o?t=140)
+### Part 1 : Embeding a YouTube video
 
-Testing Github Gists [share url](https://gist.github.com/SpeedCodeNpo/d9190ce601ca72094d3316c980ba5131)
+- The display should have 3 parts: An iframe, an input box and a button
+- - User enters a youtube url in the inp[ut box then clicks Open IFrame to view.
+- - Need to add logic if url has this string inside it : "watch?v=" then it is substituted by "embed/".
+- Here is an illustration of the display :

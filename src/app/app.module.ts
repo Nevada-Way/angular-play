@@ -1,19 +1,12 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
-
 import { AppComponent } from './app.component';
-import { MyIframeComponent } from './my-iframe/my-iframe.component';
+import { YtbIframeComponent } from './ytb-iframe/ytb-iframe.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    MyIframeComponent
-  ],
-  imports: [
-    BrowserModule,
-  ],
+  declarations: [AppComponent, YtbIframeComponent],
+  imports: [BrowserModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
