@@ -13,3 +13,5 @@
 - - Need to add logic if url has this string inside it : "watch?v=" then it is substituted by "embed/".
 -
 - Here is an illustration of the display :
+![image](https://github.com/Nevada-Way/angular-play/assets/95190960/acba25a1-b4f7-4291-8779-8dae1e198c36)
+
